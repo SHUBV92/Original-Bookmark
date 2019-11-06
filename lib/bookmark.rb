@@ -1,4 +1,5 @@
 require 'pg'
+require "dotenv/load"
 
 class Bookmark
     def self.all

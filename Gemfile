@@ -10,6 +10,9 @@ gem 'sinatra-flash'
 gem 'sinatra-partial'
 gem 'mailgun'
 gem "pg"
+gem 'dotenv'
+
+
 group :test do
   gem 'rspec'
   gem 'capybara'
